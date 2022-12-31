@@ -109,7 +109,7 @@
       <PreprocessorDefinitions>HZ_PLATFORM_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)mHazel\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)mHazel\src;$(SolutionDir)mHazel\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
